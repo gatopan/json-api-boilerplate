@@ -51,6 +51,7 @@ GEM
     pry-rails (0.3.2)
       pry (>= 0.9.10)
     rack (1.5.2)
+    rack-cors (0.2.9)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.1.4)
@@ -96,6 +97,7 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   pg
   pry-rails
+  rack-cors (= 0.2.9)
   rails (= 4.1.4)
   rails-api
   sqlite3
